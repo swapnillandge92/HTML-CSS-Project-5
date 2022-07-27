@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+*{
+    margin: 0px;
+    font-family: Ubuntu;
+}
+body{
+    background-image: url(assets/bg.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+nav{
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+
+[alt="logo"]{
+    height: 50px;
+    margin: 13px;
+    border-radius: 3px;
+}
+
+ul{
+    position: relative;
+    top: -140px;
+    list-style: none;
+    margin-left: 250px;
+}
+
+.list-item{
+    float: left;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.button-small{
+    position: relative;
+    background-color: rgb(233, 61, 239);
+    border: none ;
+    height: 35px;
+    width: 130px;
+    border-radius: 7px;
+    top: -130px;
+    right: -280px;
+    color: white;
+    
+}
+
+/* .button-small:hover {
+    box-shadow: 2px 2px #888888;
+
+} */
+
+.hero-heading{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    width: 580px;
+    top: 240px;
+    left: 550px;
+    text-align: center;
+   
+}
+
+
+
+.hero-description{
+    position: absolute;
+    color:white;
+    font-size: 25px;
+    width: 590px;
+    top: 400px;
+    left: 545px;
+    text-align: center;
+
+
+}
+
+.line{
+    position: relative;
+    height: 70px;
+    width: 0px;
+    top: -75px;
+    left:190px;
+    border: 1px solid white;
+    
+}
+.button-large{
+    position: absolute;
+    background-color: rgb(216, 26, 234);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    height: 65px;
+    width: 280px;
+    border-radius: 15px;
+    top: 470px;
+    right: 560px;   
+}
+
+
+
